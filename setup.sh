@@ -90,9 +90,7 @@ echo
 
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
+    xdg-open https://www.google.com/get/noto/help/emoji/
+fi
 
-xdg-open https://www.google.com/get/noto/help/emoji/
-
-  else
-      exit
-  fi
+exit
