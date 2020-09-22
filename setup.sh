@@ -79,5 +79,20 @@ EOM
 fc-cache
 
 echo "Noto Emoji Font installed! You may need to restart applications like chrome. If chrome displays no symbols or no letters, your default font contains emojis."
-echo "consider looking at this website to check if all emojis are working correctly!"
-echo "https://www.google.com/get/noto/help/emoji/"
+
+echo "Do you want to setup a Let's Encrypt Certificate?"
+read -p "Would you like to proceed y/n? " -n 1 -r
+echo
+
+echo "Do you want to check if all Emojis are working properly?"
+read -p "Would you like to proceed y/n? " -n 1 -r
+echo
+
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+
+xdg-open https://www.google.com/get/noto/help/emoji/
+
+  else
+      exit
+  fi
