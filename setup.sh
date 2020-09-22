@@ -79,4 +79,5 @@ EOM
 fc-cache
 
 echo "Noto Emoji Font installed! You may need to restart applications like chrome. If chrome displays no symbols or no letters, your default font contains emojis."
-echo "consider inconsolata regular"
+echo "consider looking at this website to check if all emojis are working correctly!"
+echo "https://www.google.com/get/noto/help/emoji/"
